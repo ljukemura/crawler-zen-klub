@@ -13,3 +13,8 @@ Este projeto utiliza Python e as bibliotecas `requests` e `pandas` para realizar
 ## Aviso Legal
 
 Por favor, observe que este script tem a finalidade exclusiva de educação e pesquisa. O uso deste script para qualquer outro propósito pode estar em violação dos termos de serviço do Zenklub e resultar no bloqueio do seu endereço IP.
+
+
+## Aviso de Possíveis Falhas
+
+Por favor, esteja ciente de que este script realiza a coleta de dados do site Zenklub (https://zenklub.com.br/), e sua funcionalidade pode ser afetada por alterações feitas pela equipe do Zenklub em seu site. Script realizado em agosto de 2023. Não há garantias que ele funcionará ininterruptamente em todas as situações.
