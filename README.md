@@ -1,21 +1,15 @@
-# Zen-klub data crawler
+# Zen-klub Data Crawler
 
-This project uses Python and the `requests` and `pandas` libraries to crawl data from the Zenklub website (https://zenklub.com.br/) and save it to a CSV file.
+Este projeto utiliza Python e as bibliotecas `requests` e `pandas` para realizar a coleta de dados do site Zenklub (https://zenklub.com.br/) e obter informações dos profissionais disponíveis.
 
-## How to use
+## Como utilizar
 
-1. Make sure you have Python and the required libraries (`requests` and `pandas`) installed on your machine.
-2. Clone or download the project files.
-3. Run the script using `python zenklub_crawler.py` in your command line.
-4. The script will make a request to the Zenklub API and retrieve data for the first 30 professionals.
-5. The data will be saved to a CSV file named `zen-klub.csv` in the same directory as the script.
+1. Certifique-se de ter o Python e as bibliotecas necessárias (`requests` e `pandas`) instaladas em sua máquina (pode usar o arquivo requirements.txt para isso).
+2. Clone ou baixe os arquivos do projeto.
+3. Execute o script usando `Zen-klub_crawler.py` no seu terminal.
+4. O script fará uma solicitação para a API do Zenklub até atingir o limite de profissionais disponíveis.
+5. Os dados serão salvos em arquivos JSON e CSV no mesmo diretório do script (csv ainda com problemas).
 
-## Customization
+## Aviso Legal
 
-You can change the number of professionals to retrieve by modifying the `limit` variable.
-
-**Note**: The script is set to run the loop once and retrieve 30 professionals. The variable `b` is not being used in this script. The variable `a` is also not being used in this script.
-
-## Disclaimer
-
-Please note that this script is intended for educational and research purposes only. Use of this script for any other purpose may be in violation of Zenklub's terms of service and could result in your IP address being blocked.
+Por favor, observe que este script tem a finalidade exclusiva de educação e pesquisa. O uso deste script para qualquer outro propósito pode estar em violação dos termos de serviço do Zenklub e resultar no bloqueio do seu endereço IP.
